@@ -1,13 +1,14 @@
 {
-  "name": "body-parser",
-  "description": "Node.js body parsing middleware",
-  "version": "1.12.4",
+  "name": "body-parser-rawbody",
+  "description": "A clone of the original body-parser that includes the rawBody field inside the request",
+  "version": "1.12.4-beta",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Emanuele Casadio <emanuele.casadio@gmail.com>"
   ],
   "license": "MIT",
-  "repository": "expressjs/body-parser",
+  "repository": "emanuelecasadio/body-parser-rawbody",
   "dependencies": {
     "bytes": "1.0.0",
     "content-type": "~1.0.1",
