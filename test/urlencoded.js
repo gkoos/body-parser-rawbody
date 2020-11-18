@@ -27,7 +27,7 @@ describe('bodyParser.urlencoded()', function(){
     test.set('Content-Length', '20')
     test.set('Transfer-Encoding', 'chunked')
     test.write('str=')
-    test.expect(400, /content length/, done)
+    test.expect(400, '', done)
   })
 
   it('should handle Content-Length: 0', function(done){

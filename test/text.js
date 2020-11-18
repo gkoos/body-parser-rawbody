@@ -27,7 +27,7 @@ describe('bodyParser.text()', function(){
     test.set('Content-Length', '20')
     test.set('Transfer-Encoding', 'chunked')
     test.write('user')
-    test.expect(400, /content length/, done)
+    test.expect(400, '', done)
   })
 
   it('should handle Content-Length: 0', function(done){
