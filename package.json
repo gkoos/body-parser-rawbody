@@ -1,7 +1,7 @@
 {
-  "name": "body-parser-rawbody",
-  "description": "A clone of the original body-parser that includes the rawBody field inside the request",
-  "version": "1.13.2",
+  "name": "bodyparser-rawbody",
+  "description": "A clone of body-parser-rawbody which is a clone of the original body-parser that includes the rawBody field inside the request",
+  "version": "1.0.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
